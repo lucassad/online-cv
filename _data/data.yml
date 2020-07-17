@@ -36,13 +36,10 @@ sidebar:
         level: Professional
 
     interests:
-      - item: Climbing
+      - item: Data Analytics
         link:
 
-      - item: Snowboarding
-        link:
-
-      - item: Cooking
+      - item: Cloud
         link:
 
 career-profile:
@@ -59,43 +56,73 @@ education:
       details: |
         São Paulo - SP - Brazil
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Pre-Sales Enterprise Architect
+      time: 2018 - Present
+      company: Qlik
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+        Qlik is one of the leaders in Gartner's Magic Quadrand for Analytics. 
+        Qlik helps enterprises get value out of data, with an end-to-end solution.
+          - Worked with target accounts in industries like:
+            - Retail, Manufacturing, Telecom, Pharmaceuticals, Public Sector and
+            Financial Institutions
+          - Achieved 120% of sales quota in 2018
+          - Finalist of America's Pre-Sales of the year in 2019
+          - Presenter of QlikWorld 2020 Session - Hybrid Cloud Data Architectures & Data Movement
+          - Host of Americas Fireside Chats in 2020
+    - role: Sr. Data Warehouse Analyst
+      time: 2016 - 2018
+      company: JBS S.A. - USA
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+        JBS S.A. – Currently the largest protein processor and the second largest food
+        company in the world. Presence in 22 countries on five continents and serve
+        more than 350,000 customers in over 150 nations.
+          - Started and managed QlikView to JBS USA and JBS Canada
+          - January 2016 – Beef Division 200 Users
+          - January 2018 - Beef/Poultry/Pork 2,000+ users (46 Industrial Units)
+          - Managed/Coordinated QlikView training across more than 2,000 users
+          - Coordinated Business Intelligence Applications development
+          - Integrated applications in depth for all departments through the organization
+            - Sales, HR, Pricing, IT and Operations
+    - role: Business Specialist
+      time: 2013 - 2015
+      company: JBS S.A. - Brazil
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+          - Coordinated and developed Business Intelligence Applications for the
+            biggest business unit in Brazil
+          - August 2013 – Beef Division 500 users
+          - December 2015 - Beef Division 2,500 users
+          - Coordinated projects that empowered business users to track their key
+            performance indicators
+          - Created best development practices and layout standards to be used for
+            contractors and internal developers
+          - Mapped manufacturing processes and delivered KPIs to be tracked at
+            operational level
+          - Delivered mobile solutions for the executive team using QlikSense
+          - Supported QlikView implementation across Seara, JBS Leather, JBS
+            Australia and Swift Retail
+    - role: Pre-Sales & QlikView Architect
+      time: 2011 - 2013
+      company: W&S Central IT - Brazil
+      details: |
+        W&S Central IT – Business Intelligence solution provider and consulting
+        company.
+          - Presented and developed insight solutions with the sales force for new
+            customers
+          - Provided solutions based on opportunities for potential customers to use
+            the software (QlikView)
+          - From January 2011 to August 2013 – 170% of Growth of Customers
+            - 5 Key Customers
+            - In different industries such as: television, retail, construction, broadcast,
+              religious establishments, and more
+    - role: Business Analyst
+      time: 2010 - 2011
+      company: Scriptus - Brazil
+      details: |
+        Scriptus – Training company for business management and merges and
+        acquisitions.
+        - Map business processes and create data bases
+        - Created presentations for executive team
+                 
 projects:
     title: Projects
     intro: >
@@ -124,35 +151,53 @@ projects:
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+    title: Certifications
+    intro: 
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: Qlik Sense System Administrator
+        link: 
+        authors: 
+        conference: 
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: Qlik Sense Data Architect
+        link: 
+        authors: 
+        conference: 
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: Qlik Sense Business Analyst
+        link: 
+        authors: 
+        conference: 
+
+      - title: Demo2Win
+        link: https://2winglobal.com/
+        authors: 2Win
+        conference: 
+
+      - title: QlikView 11 Designer
+        link: 
+        authors: 
+        conference: 
+
+      - title: QlikView 11 Developer
+        link: 
+        authors: 
+        conference: 
+
+        - title: Virtual Business Discovery
+        link: 
+        authors: Toccato Tecnologia
+        conference: 
+
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Cloud Deployment
         level: 98%
 
-      - name: Javascript & jQuery
+      - name: Python
         level: 98%
 
       - name: Angular
