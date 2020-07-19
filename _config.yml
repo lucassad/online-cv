@@ -1,3 +1,6 @@
+gems:
+  - jekyll-pdf
+
 #Update all the sections by editing the data.yml file inside _data folder.
 
 # Site Settings
