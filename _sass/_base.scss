@@ -126,6 +126,25 @@ p {
             margin-bottom: 0px;
         }
     }
+    .download-container {
+        .item {
+            margin-bottom: 15px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+        .fas, .fab {
+            margin-right: 5px;
+            font-size: 18px;
+            vertical-align: middle;
+        }
+        li {
+            margin-bottom: 15px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
     .languages-container {
         .lang-desc {
             color: rgba(256, 256, 256, 0.6);
