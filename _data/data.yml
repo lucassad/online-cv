@@ -57,8 +57,12 @@ education:
       details: |
         São Paulo - SP - Brazil
 experiences:
+    - role: Senior Solutions Consultant
+      time: 2020 - Present
+      company: Pegasystems
+      details: |
     - role: Pre-Sales Enterprise Architect
-      time: 2018 - Present
+      time: 2018 - 2020
       company: Qlik
       details: |
         Qlik is one of the leaders in Gartner's Magic Quadrand for Analytics. 
