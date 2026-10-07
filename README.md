@@ -1,8 +1,9 @@
 # Luciano Assad — lucassad.com
 
-This site keeps the Orbit theme and Jekyll framework. Professional content in
-`_data/data.yml` is temporarily Lorem ipsum, pending the approved public resume.
-The profile identity, photo, and contact links remain in place.
+This site keeps the Orbit theme and Jekyll framework. The public profile currently shows identity, contact links, and career history
+(companies, roles, dates, and locations) from the supplied resume. Experience
+descriptions and other resume sections are intentionally omitted until approved.
+The profile photo has been removed, and the layout uses a modern career timeline.
 
 ## Publish and recover the domain
 
@@ -24,10 +25,10 @@ its custom-domain mapping; changing resume text alone cannot resolve it.
 
 ## Update the public resume
 
-Replace the placeholder biography, roles, education, certifications, languages,
-interests, and skills in `_data/data.yml` with the approved publication copy.
-Skill percentages and dates are placeholders too. Keep the theme attribution.
-The PDF button generates a PDF from the site; no old resume PDF is linked.
+Edit `_data/data.yml`. Career entries live under `experiences.info`, matching the
+Orbit templates. Add an optional `details` field only when publication copy is
+approved. The supplied application PDF is not published or linked. Keep the
+theme attribution. The PDF button generates a PDF from the current public site.
 
 ---
 

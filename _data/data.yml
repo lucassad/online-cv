@@ -1,89 +1,44 @@
-# Temporary copy for the public resume. Replace these placeholders with the
-# approved publication resume; do not copy an application-specific resume here.
+# Public profile in progress. Only identity, employers, roles, and dates are
+# published for now. Experience descriptions await approved publication copy.
 sidebar:
   about: false
-  education: true
+  education: false
   name: Luciano Assad
-  tagline: Lorem ipsum dolor sit amet
-  avatar: profile.png
+  tagline: Senior Solutions Consultant
+  location: Dallas, Texas
   email: luc.assad@gmail.com
   website: lucassad.com
   linkedin: lucianoassad
   github: lucassad
-  languages:
-    - idiom: Lorem ipsum
-      level: Dolor sit amet
-    - idiom: Lorem ipsum
-      level: Consectetur adipiscing
-  interests:
-    - item: Lorem ipsum
-    - item: Dolor sit amet
-    - item: Consectetur adipiscing
-
-career-profile:
-  title: Summary
-  summary: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-    commodo consequat.
-
-education:
-  - degree: Lorem ipsum dolor sit amet
-    university: Consectetur adipiscing elit
-    time: '20XX - 20XX'
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 experiences:
-  - role: Lorem ipsum dolor sit amet
-    time: '20XX - Present'
-    company: Consectetur adipiscing elit
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua.
-
-      - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
-      - Duis aute irure dolor in reprehenderit in voluptate velit esse.
-      - Excepteur sint occaecat cupidatat non proident.
-  - role: Lorem ipsum dolor sit amet
-    time: '20XX - 20XX'
-    company: Sed do eiusmod tempor
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-      - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
-      - Duis aute irure dolor in reprehenderit in voluptate velit esse.
-  - role: Lorem ipsum dolor sit amet
-    time: '20XX - 20XX'
-    company: Ut labore et dolore
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-      - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
-      - Excepteur sint occaecat cupidatat non proident.
-
-publications:
-  title: Certifications
-  papers:
-    - title: Lorem ipsum dolor sit amet
-    - title: Consectetur adipiscing elit
-    - title: Sed do eiusmod tempor
-
-skills:
-  title: Skills &amp; Proficiency
-  toolset:
-    - name: Lorem ipsum
-      level: 90%
-    - name: Dolor sit amet
-      level: 85%
-    - name: Consectetur adipiscing
-      level: 80%
-    - name: Sed do eiusmod
-      level: 75%
-    - name: Ut labore et dolore
-      level: 70%
+  title: Experience
+  info:
+    - role: Senior Solutions Consultant
+      time: '2023 — Present'
+      company: Scandit
+      location: Dallas, TX, USA
+    - role: Solutions Consultant
+      time: '2022 — 2023'
+      company: Scandit
+      location: Brazil
+    - role: Solutions Consultant
+      time: '2020 — 2022'
+      company: Pegasystems
+      location: Brazil
+    - role: Pre-Sales Enterprise Architect
+      time: '2018 — 2020'
+      company: Qlik
+      location: Brazil
+    - role: Senior Data Warehouse Analyst & Business Specialist
+      time: '2013 — 2018'
+      company: JBS S.A.
+      location: Brazil and USA
+    - role: Pre-Sales & QlikView Architect
+      time: '2010 — 2013'
+      company: W&S Central IT / Scriptus
+      location: Brazil
 
 footer: >
-  Designed with <i class="fas fa-heart"></i> by
-  <a href="https://themes.3rdwavemedia.com" target="_blank" rel="nofollow noopener noreferrer">Xiaoying Riley</a>
+  Theme by <a href="https://themes.3rdwavemedia.com" target="_blank"
+  rel="nofollow noopener noreferrer">Xiaoying Riley</a>

@@ -1,0 +1,182 @@
+/* Modern public profile; keeps Orbit's data and section templates. */
+body {
+  background: #f3f4f6;
+  color: #334155;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 15px;
+  line-height: 1.65;
+  padding: 32px 28px 24px;
+}
+a { color: #0f766e; }
+a:hover { color: #115e59; }
+a:focus-visible, button:focus-visible {
+  outline: 3px solid #14b8a6;
+  outline-offset: 4px;
+}
+.resume-actions {
+  max-width: 1060px;
+  margin: 0 auto 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.site-mark {
+  color: #0f172a;
+  font-size: 18px;
+  font-weight: 750;
+  letter-spacing: -.6px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.site-mark span {
+  border-left: 1px solid #cbd5e1;
+  padding-left: 14px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: .3px;
+  color: #64748b;
+}
+.action-buttons { display: flex; gap: 8px; }
+.print-button, .pdf-button {
+  position: static;
+  box-shadow: none;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  background: #fff;
+  color: #334155;
+  padding: 9px 15px;
+  font-size: 12px;
+  font-weight: 600;
+  transition: background .15s ease;
+}
+.pdf-button { background: #0f766e; border-color: #0f766e; color: #fff; }
+.print-button:hover { background: #e2e8f0; box-shadow: none; transform: none; }
+.pdf-button:hover { background: #115e59; box-shadow: none; transform: none; }
+.wrapper {
+  display: block;
+  max-width: 1060px;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 12px 40px rgba(15, 23, 42, .04);
+}
+.sidebar-wrapper {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  align-items: center;
+  background: #0f172a;
+  color: #f8fafc;
+  padding: 52px 56px;
+  gap: 36px;
+  border-bottom: 4px solid #14b8a6;
+}
+.sidebar-wrapper .profile-container {
+  padding: 0;
+  text-align: left;
+  background: transparent;
+}
+.profile-label {
+  color: #5eead4;
+  font-size: 11px;
+  font-weight: 650;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0 0 18px;
+}
+.sidebar-wrapper .name {
+  font-size: 48px;
+  line-height: 1.1;
+  font-weight: 700;
+  letter-spacing: -2px;
+  margin: 0 0 16px;
+}
+.sidebar-wrapper .tagline {
+  color: #e2e8f0;
+  font-size: 17px;
+  line-height: 1.5;
+  margin: 0;
+}
+.profile-location { color: #94a3b8; font-size: 13px; margin: 8px 0 0; }
+.sidebar-wrapper .contact-container { padding: 0 0 0 32px; border-left: 1px solid #334155; }
+.sidebar-wrapper .contact-list { margin: 0; }
+.sidebar-wrapper .contact-list li { margin-bottom: 12px; font-size: 13px; overflow-wrap: anywhere; }
+.sidebar-wrapper .contact-list a { color: #cbd5e1; }
+.sidebar-wrapper .contact-list a:hover { color: #5eead4; }
+.sidebar-wrapper .contact-list .fas,
+.sidebar-wrapper .contact-list .fab { font-size: 14px; color: #64748b; margin-right: 12px; width: 16px; }
+.main-wrapper { padding: 48px 56px 40px; background: #fff; }
+.main-wrapper .section { margin-bottom: 0; }
+.main-wrapper .section-title {
+  color: #64748b;
+  font-size: 12px;
+  font-weight: 650;
+  letter-spacing: 2px;
+  margin-bottom: 32px;
+}
+.main-wrapper .section-title .fa-stack { display: none; }
+.main-wrapper .experiences-section .item {
+  position: relative;
+  padding: 0 0 30px 28px;
+  margin: 0;
+  border-left: 1px solid #e2e8f0;
+}
+.main-wrapper .experiences-section .item:before {
+  content: "";
+  position: absolute;
+  left: -5px;
+  top: 7px;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #cbd5e1;
+  box-shadow: 0 0 0 5px #fff;
+}
+.main-wrapper .experiences-section .item:first-of-type:before { background: #0f766e; }
+.main-wrapper .experiences-section .item:last-child { padding-bottom: 0; border-left-color: transparent; }
+.main-wrapper .upper-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 20px;
+  overflow: visible;
+  margin: 0 0 5px;
+}
+.main-wrapper .job-title { color: #0f172a; font-size: 17px; font-weight: 600; line-height: 1.5; flex: 1; }
+.main-wrapper .time { position: static; color: #64748b; font-size: 12px; font-weight: 500; flex: none; white-space: nowrap; }
+.main-wrapper .company { color: #0f766e; font-size: 14px; font-weight: 600; margin-bottom: 0; }
+.job-location { color: #64748b; font-weight: 400; font-size: 12px; margin-left: 14px; }
+.footer { padding: 24px 12px 0; }
+.footer .copyright { font-size: 11px; color: #64748b; }
+@media (max-width: 767px) {
+  body { padding: 20px 16px; }
+  .resume-actions { margin-bottom: 18px; }
+  .site-mark span { display: none; }
+  .print-button, .pdf-button { padding: 8px 11px; }
+  .wrapper { border-radius: 16px; }
+  .sidebar-wrapper { display: block; padding: 32px 26px; }
+  .sidebar-wrapper .name { font-size: 38px; }
+  .sidebar-wrapper .contact-container { border-left: 0; border-top: 1px solid #334155; padding: 22px 0 0; margin-top: 24px; }
+  .sidebar-wrapper .contact-list { display: flex; flex-wrap: wrap; gap: 10px 22px; }
+  .sidebar-wrapper .contact-list li { margin-bottom: 0; }
+  .main-wrapper { padding: 30px 26px; }
+  .main-wrapper .upper-row { display: block; margin-bottom: 5px; }
+  .main-wrapper .job-title { font-size: 16px; }
+  .main-wrapper .time { margin: 4px 0 0; }
+  .job-location { display: block; margin: 2px 0 0; }
+}
+@media print {
+  body { background: #fff; padding: 0; font-size: 10pt; }
+  .wrapper { border: 0; border-radius: 0; box-shadow: none; }
+  .sidebar-wrapper { padding: 26px 30px; grid-template-columns: 1.2fr 1fr; }
+  .sidebar-wrapper .name { font-size: 32px; }
+  .sidebar-wrapper .tagline { font-size: 14px; }
+  .main-wrapper { padding: 28px 30px; }
+  .main-wrapper .time { padding: 0; }
+  .main-wrapper .experiences-section .item { break-inside: avoid; padding-bottom: 22px; }
+  .main-wrapper .job-title { font-size: 13px; }
+  .main-wrapper .company { font-size: 12px; }
+  .main-wrapper .section-title { margin-bottom: 20px; }
+}
