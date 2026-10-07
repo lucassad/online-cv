@@ -4,19 +4,19 @@ location: Dallas, TX
 email: luc.assad@gmail.com
 linkedin: https://linkedin.com/in/lucianoassad
 website: https://lucassad.com
-summary: 'Senior Solutions Consultant with 15+ years in enterprise pre-sales, solution architecture, and analytics
-  across the US and Latin America. Provide functional technical leadership across customer engineering, Sales,
-  Support, and Product: align requirements, guide technical workstreams, and develop colleagues through enablement.
-  Combine this coordination with hands-on demonstrations, proofs of concept, and SDK integration. Experience
-  spans smart data capture, enterprise analytics, and real-time decisioning. Fluent in English, Portuguese,
-  and Spanish.'
+summary: 'Senior Solutions Consultant with 15+ years in enterprise pre-sales, solution architecture, and analytics.
+  Currently support US enterprise accounts; previously supported LATAM while based in Brazil. Provide functional
+  technical leadership across customer engineering, Sales, Support, and Product: align requirements, guide technical
+  workstreams, and mentor colleagues. Combine hands-on demonstrations, proofs of concept, and SDK integration.
+  Experience spans smart data capture, enterprise analytics, and real-time decisioning. Native Portuguese,
+  fluent English, and professional working proficiency in Spanish.'
 experience:
 - role: Senior Solutions Consultant
   company: Scandit
   location: Brazil → Dallas, TX, USA
   period: 2022 — Present
   bullets:
-  - Lead technical workstreams for multimillion-dollar enterprise opportunities, aligning customer requirements,
+  - Lead technical workstreams for multimillion-dollar enterprise opportunities in the US, aligning customer requirements,
     solution architecture, PoC scope, and integration plans across Sales, Support, Product, and customer engineering.
   - Previously served as the primary technical resource for multi-year engagements with a Fortune 500 retailer,
     covering store associate applications, inventory workflows, and in-store data capture. Continue to provide
@@ -27,7 +27,7 @@ experience:
     from customer on-site findings. Keep stakeholders aligned and coordinate cross-functional follow-through
     on complex integration requirements.
   - Guide and mentor colleagues through technical onboarding and partner enablement. Previously served as the
-    primary technical lead for Brazil and a ShelfView product specialist across the Americas.
+    primary technical lead for Brazil, supporting LATAM engagements in Portuguese and Spanish.
   - Delivered product demonstrations and customer technical discussions at Scandit's exhibitor booth at NRF
     Big Show in 2024, 2025, and 2026.
 - role: Senior Solutions Consultant
@@ -164,7 +164,7 @@ languages:
 - name: English
   level: Fluent
 - name: Spanish
-  level: Fluent
+  level: Professional working proficiency
 certifications:
 - name: Pega certification
   issuer: Pega
@@ -209,7 +209,7 @@ cases:
 - label: SCANDIT · ENTERPRISE CONSULTING
   name: Functional technical leadership
   title: Enterprise technical delivery
-  text: Guide enterprise technical engagements across Sales, Support, Product, and customer engineering. Align
+  text: Guide enterprise technical engagements in the US across Sales, Support, Product, and customer engineering. Align
     requirements and integration plans, coordinate delivery, and equip colleagues with reusable technical guidance.
   points:
   - Hands-on SDK prototypes, pilot dashboards, and integration execution plans.
@@ -250,4 +250,4 @@ personal_ai:
   - Hermes
 page_title: Luciano Assad | Senior Solutions Consultant
 description: Luciano Assad — Senior Solutions Consultant in Dallas. Enterprise pre-sales, solution architecture,
-  mobile SDK integration, analytics, and intelligent automation across the US and Latin America.
+  mobile SDK integration, analytics, and intelligent automation in the US, with earlier LATAM experience in Brazil.
