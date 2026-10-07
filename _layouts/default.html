@@ -9,20 +9,25 @@
 {% include head.html %}
 
 <body>
+  <nav class="resume-actions d-print-none" aria-label="Resume actions">
+  <a class="site-mark" href="{{ '/' | relative_url }}">LA<span>Curriculum vitae</span></a>
+  <div class="action-buttons">
   <button onclick="print()" class="print-button d-print-none">
-    <i class="fas fa-file-pdf"></i>Print
+    <i class="fas fa-print" aria-hidden="true"></i>Print
   </button>
 
   <button onclick="generatePDF()" class="pdf-button d-print-none" id="pdfButton" data-print-url="{{ '/print' | relative_url }}">
-    <i class="fas fa-file-pdf"></i>PDF
+    <i class="fas fa-file-pdf" aria-hidden="true"></i>Save PDF
   </button>
+  </div>
+  </nav>
 
   <div class="wrapper">
     {% include sidebar.html %}
 
-    <div class="main-wrapper">
+    <main class="main-wrapper">
       {{ content }}
-    </div>
+    </main>
   </div>
 
   {% include footer.html %}
