@@ -1,0 +1,34 @@
+{% assign p = site.data.data %}
+<div class="profile-shell">
+<aside class="sidebar">
+<a href="{{ '/' | relative_url }}" class="brand brand-name">Luciano<br>Assad</a>
+<nav aria-label="Profile sections">
+<a href="#overview">Profile</a><a href="#enterprise">Enterprise work</a><a href="#experience">Experience</a><a href="#skills">Technical expertise</a><a href="#certifications">Qualifications</a>
+</nav>
+</aside>
+<main class="content">
+<header class="topbar"><span>Luciano Assad · Professional profile</span><a class="outline-button" href="{{ '/assets/pdf/Luciano-Assad-Resume.pdf' | relative_url }}" download="Luciano-Assad-Resume.pdf">Salvar PDF</a></header>
+<section id="overview" class="overview">
+<div class="hero-layout"><div><span class="eyebrow">ENTERPRISE SOLUTIONS CONSULTING</span><h1>{{ p.display_name | escape }}</h1><p class="role">{{ p.role | escape }} <span>· {{ p.location | escape }}</span></p></div><img class="portrait" width="136" height="136" src="{{ '/assets/images/luciano-assad.jpg' | relative_url }}" alt="Portrait of Luciano Assad"></div>
+<p class="hero-thesis">Smart data capture · Enterprise analytics<br>Decisioning &amp; automation</p>
+<p class="summary">{{ p.summary | escape }}</p>
+<div class="contact-row"><a href="mailto:{{ p.email | escape }}">{{ p.email | escape }}</a><a href="{{ p.linkedin | escape }}" target="_blank" rel="noopener noreferrer">LinkedIn</a><a href="https://github.com/lucassad" target="_blank" rel="noopener noreferrer">GitHub</a></div>
+<div class="fact-strip"><div><strong>15+</strong><span>years across enterprise technology</span></div><div><strong>US + LATAM</strong><span>customer &amp; regional experience</span></div><div><strong>English · Portuguese · Spanish</strong><span>fluent enterprise communication</span></div></div>
+<div class="position-grid">{% for fact in p.positioning %}<article><h2>{{ fact.title | escape }}</h2><p>{{ fact.text | escape }}</p></article>{% endfor %}</div>
+</section>
+<section id="enterprise" class="section"><div class="section-heading"><span class="eyebrow">01 / ENTERPRISE WORK</span><h2>Selected enterprise work.</h2></div><div class="case-grid">
+{% for work in p.cases %}<article class="case-card"><span class="eyebrow">{{ work.label | escape }}</span><div class="case-name">{{ work.name | escape }}</div><h3>{{ work.title | escape }}</h3><p>{{ work.text | escape }}</p><ul>{% for point in work.points %}<li>{{ point | escape }}</li>{% endfor %}</ul></article>{% endfor %}
+</div></section>
+<section id="experience" class="section"><div class="section-heading"><span class="eyebrow">02 / EXPERIENCE</span><h2>Professional experience.</h2></div><div class="career-list">
+{% for job in p.experience %}<details class="career" open><summary><div class="career-index">0{{ forloop.index }}</div><div class="career-head"><span class="employer">{{ job.company | escape }}</span><h3>{{ job.role | escape }}</h3><p>{{ job.location | escape }}</p></div><div class="career-date">{{ job.period | escape }}<span class="expand-label" aria-hidden="true">Show / hide</span></div></summary><div class="career-body"><ul>{% for point in job.bullets %}<li>{{ point | escape }}</li>{% endfor %}</ul></div></details>{% endfor %}
+</div><div class="recognition"><h3>Recognition</h3><div class="recognition-grid">{% for award in p.recognition %}<article><h4>{{ award.title | escape }}</h4><p>{{ award.detail | escape }}</p></article>{% endfor %}</div></div></section>
+<section id="skills" class="section"><div class="section-heading"><span class="eyebrow">03 / TECHNICAL EXPERTISE</span><h2>Platforms, integration experience, and tools.</h2></div><div class="skills-grid">
+{% for group in p.skills %}<article class="skill-card"><h3>{{ group[0] | escape }}</h3><div class="tags">{% for skill in group[1] %}<span>{{ skill | escape }}</span>{% endfor %}</div></article>{% endfor %}
+</div><div class="languages"><h3>Languages</h3>{% for language in p.languages %}<div><strong>{{ language.name | escape }}</strong><span>{{ language.level | escape }}</span></div>{% endfor %}</div>
+<div id="personal-ai" class="personal-ai-compact"><h3>{{ p.personal_ai.title | escape }}</h3><p>{{ p.personal_ai.intro | escape }}</p><p class="personal-tools"><strong>Tools</strong> · {{ p.personal_ai.tools | join: ' · ' | escape }}</p></div></section>
+<section id="certifications" class="section"><div class="section-heading"><span class="eyebrow">04 / QUALIFICATIONS</span><h2>Certifications &amp; professional development.</h2></div><div class="cert-grid">
+{% for cert in p.certifications %}<article class="cert-card"><span class="issuer">{{ cert.issuer | escape }}</span><h3>{{ cert.name | escape }}</h3>{% if cert.groups %}<div class="cert-groups">{% for group in cert.groups %}<div><h4>{{ group.name | escape }}</h4><p>{{ group.credentials | join: ' · ' | escape }}</p></div>{% endfor %}</div>{% endif %}{% if cert.date %}<p class="cert-date">{{ cert.date | escape }}</p>{% endif %}{% if cert.url %}<a href="{{ cert.url | escape }}" target="_blank" rel="noopener noreferrer">View credential</a>{% endif %}</article>{% endfor %}
+</div><div id="education" class="education-card"><span class="eyebrow">EDUCATION</span><div><h3>{{ p.education.degree | escape }}</h3><p>{{ p.education.institution | escape }}</p><p>{{ p.education.location | escape }} · {{ p.education.period | escape }}</p></div></div></section>
+<footer>Luciano Assad · {{ p.location | escape }}</footer>
+</main>
+</div>

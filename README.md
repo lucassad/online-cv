@@ -1,9 +1,8 @@
 # Luciano Assad — lucassad.com
 
-This site keeps the Orbit theme and Jekyll framework. The public profile currently shows identity, contact links, and career history
-(companies, roles, dates, and locations) from the supplied resume. Experience
-descriptions and other resume sections are intentionally omitted until approved.
-The profile uses the user-supplied LinkedIn photo and a modern career timeline.
+This site uses Jekyll with a custom professional-profile layout. It presents
+enterprise consulting experience, functional technical leadership, selected
+results, skills, qualifications, and the user-supplied LinkedIn photo.
 
 ## Publish and recover the domain
 
@@ -25,10 +24,15 @@ its custom-domain mapping; changing resume text alone cannot resolve it.
 
 ## Update the public resume
 
-Edit `_data/data.yml`. Career entries live under `experiences.info`, matching the
-Orbit templates. Add an optional `details` field only when publication copy is
-approved. The supplied application PDF is not published or linked. Keep the
-theme attribution. The PDF button generates a PDF from the current public site.
+Edit `_data/data.yml`. Career entries live under `experience`; the other sections
+use `positioning`, `cases`, `skills`, `recognition`, and `certifications`.
+The main and print pages share `_includes/professional-profile.html` and
+`_layouts/profile.html`, styled by `assets/css/profile.css`.
+
+The PDF button downloads `assets/pdf/Luciano-Assad-Resume.pdf`. After changing
+the profile, regenerate this public PDF from the print view so both versions
+agree. Keep confidential source documents, private profiles, and phone numbers
+out of this public repository. The original theme attribution remains below.
 
 ---
 

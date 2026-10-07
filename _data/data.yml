@@ -1,45 +1,253 @@
-# Public profile in progress. Only identity, employers, roles, and dates are
-# published for now. Experience descriptions await approved publication copy.
-sidebar:
-  about: false
-  education: false
-  name: Luciano Assad
-  avatar: luciano-assad.jpg
-  tagline: Senior Solutions Consultant
-  location: Dallas, Texas
-  email: luc.assad@gmail.com
-  website: lucassad.com
-  linkedin: lucianoassad
-  github: lucassad
+display_name: Luciano Assad
+role: Senior Solutions Consultant
+location: Dallas, TX
+email: luc.assad@gmail.com
+linkedin: https://linkedin.com/in/lucianoassad
+website: https://lucassad.com
+summary: 'Senior Solutions Consultant with 15+ years in enterprise pre-sales, solution architecture, and analytics
+  across the US and Latin America. Provide functional technical leadership across customer engineering, Sales,
+  Support, and Product: align requirements, guide technical workstreams, and develop colleagues through enablement.
+  Combine this coordination with hands-on demonstrations, proofs of concept, and SDK integration. Experience
+  spans smart data capture, enterprise analytics, and real-time decisioning. Fluent in English, Portuguese,
+  and Spanish.'
+experience:
+- role: Solutions Consultant → Senior Solutions Consultant
+  company: Scandit
+  location: Brazil → Dallas, TX, USA
+  period: 2022 — Present
+  bullets:
+  - Lead technical workstreams for multimillion-dollar enterprise opportunities, aligning customer requirements,
+    solution architecture, PoC scope, and integration plans across Sales, Support, Product, and customer engineering.
+  - Previously served as the primary technical resource for multi-year engagements with a Fortune 500 retailer,
+    covering store associate applications, inventory workflows, and in-store data capture. Continue to provide
+    advisory technical support to the account team.
+  - Build customer-specific demos and prototypes across iOS, Android, React Native, Flutter, Cordova, and web
+    SDKs. Evaluate scanning performance, camera behavior, and mobile devices to guide integration decisions.
+  - Structure technical delivery with pilot dashboards, integration documentation, and execution plans drawn
+    from customer on-site findings. Keep stakeholders aligned and coordinate cross-functional follow-through
+    on complex integration requirements.
+  - Guide and mentor colleagues through technical onboarding and partner enablement. Previously served as the
+    primary technical lead for Brazil and a ShelfView product specialist across the Americas.
+  - Delivered product demonstrations and customer technical discussions at Scandit's exhibitor booth at NRF
+    Big Show in 2024, 2025, and 2026.
+- role: Solutions Consultant
+  company: Pegasystems
+  location: Brazil
+  period: 2020 — 2022
+  intro: Customer engagement, real-time decisioning, and intelligent automation.
+  bullets:
+  - Main technical resource for telecom accounts in Brazil, leading discovery, executive workshops, and proofs
+    of concept for Pega Customer Decision Hub and Next Best Action.
+  - Scoped RPA/RDA and hyperautomation proofs of concept for order-flow correction and provisioning visibility.
+  - Telecommunications and Customer Decision Hub Specialist for Brazil, November 2021–July 2022. Solutions
+    Consultant of the Quarter, LATAM, Q1 2021.
+- role: Pre-Sales Enterprise Architect
+  company: Qlik
+  location: Brazil
+  period: 2018 — 2020
+  intro: Enterprise analytics platform.
+  bullets:
+  - Achieved 120% of sales quota in 2018; finalist for Americas Pre-Sales of the Year in 2019.
+  - Designed QlikView and Qlik Sense architectures for enterprise accounts across retail, manufacturing, telecom,
+    pharmaceuticals, financial services, and the public sector.
+  - Contributed to cloud and mobile analytics for a large retailer and public-health dashboards using Qlik
+    Analytics Platform and HTML, JavaScript, and CSS mashups.
+  - Presented Hybrid Cloud Data Architectures & Data Movement at QlikWorld 2020; hosted Americas Fireside Chats
+    and contributed to a Qlik Sense Administrator Cookbook.
+- role: Senior Data Warehouse Analyst
+  company: JBS S.A.
+  location: USA · supporting USA and Canada operations
+  period: 2016 — 2018
+  bullets:
+  - Launched QlikView for JBS USA and Canada, expanding adoption from 200 users to 2,000+ across 46 industrial
+    units between 2016 and 2018.
+  - Coordinated QlikView training for more than 2,000 users and BI application development across Sales, HR,
+    Pricing, IT, and Operations.
+- role: Business Specialist
+  company: JBS S.A.
+  location: Brazil
+  period: 2013 — 2015
+  bullets:
+  - Coordinated and developed BI applications for the Beef Division in Brazil, growing adoption from 500 users
+    in 2013 to 2,500 in 2015. Mapped manufacturing processes and delivered operational KPIs.
+  - Established development practices and visual standards for internal developers and contractors. Delivered
+    executive mobile analytics using Qlik Sense.
+  - Supported QlikView implementations across Seara, JBS Leather, JBS Australia, and Swift Retail; contributed
+    to architecture, access, and reporting improvements.
+- role: Pre-Sales & QlikView Architect
+  company: W&S Central IT
+  location: Brazil
+  period: 2011 — 2013
+  bullets:
+  - Grew the customer base by 170% between 2011 and 2013, partnering with sales teams on QlikView demonstrations
+    and BI solution design.
+  - Developed and presented analytics solutions for customers across television, retail, construction, and
+    broadcast, translating business opportunities into QlikView use cases.
+- role: Business Analyst
+  company: Scriptus
+  location: Brazil
+  period: 2010 — 2011
+  bullets:
+  - Mapped business processes and created databases to support business-management analysis.
+  - Prepared reporting and presentations for executive audiences.
+education:
+  degree: Bachelor of Information Systems
+  institution: FIAP — Faculdade de Informática e Administração Paulista
+  location: São Paulo, Brazil
+  period: 2010 — 2014
+skills:
+  Enterprise solution consulting:
+  - Functional technical leadership
+  - Cross-functional coordination
+  - Technical discovery
+  - Solution architecture
+  - Tailored demonstrations
+  - Executive presentations
+  - ROI & business cases
+  - PoC management
+  - Customer engineering workshops
+  - Security discussions
+  - Partner enablement
+  - Technical onboarding
+  - Mentoring & enablement
+  Analytics & data engineering:
+  - SQL
+  - Qlik Sense
+  - QlikView
+  - Qlik Analytics Platform
+  - Qlik NPrinting
+  - Qlik Catalog
+  - Qlik Replicate
+  - Qlik Compose
+  - SAP Business Warehouse
+  - SAP HANA
+  - Data modeling
+  - Operational KPIs
+  Mobile & SDK integration:
+  - Android Studio
+  - Android · Kotlin / Java
+  - Jetpack Compose
+  - iOS · Swift
+  - React Native
+  - Flutter
+  - Cordova
+  - Xamarin.iOS / Android / Forms
+  - Scandit SDKs
+  - Camera & device evaluation
+  Development & web:
+  - Python
+  - Node.js
+  - JavaScript
+  - HTML5
+  - CSS
+  - Web SDKs
+  - API & SDK integration
+  - Technical documentation
+  - Architecture diagrams
+  Cloud & infrastructure:
+  - AWS
+  - Google Cloud
+  - Cloud deployment
+  - Hybrid cloud architectures
+  - Docker
+  - Kubernetes
+  Decisioning & intelligent automation:
+  - Pega Platform
+  - Customer Decision Hub
+  - Next Best Action
+  - RPA / RDA
+  - Hyperautomation
+  - Customer engagement
+languages:
+- name: Portuguese
+  level: Native
+- name: English
+  level: Fluent
+- name: Spanish
+  level: Fluent
+certifications:
+- name: Pega certification
+  issuer: Pega
+- name: Qlik certifications
+  issuer: Qlik
+  groups:
+  - name: Qlik Sense
+    credentials:
+    - System Administrator
+    - Data Architect
+    - Business Analyst
+  - name: QlikView 11
+    credentials:
+    - Designer
+    - Developer
+- name: Demo2Win!
+  issuer: 2Win
+  date: January 27, 2023
+  url: https://www.credential.net/2b22cfd9-3153-471d-8583-a43cc34f2200
+- name: Virtual Business Discovery
+  issuer: Professional training
+recognition:
+- title: Five Peak Club nominations
+  detail: Scandit · Q3 2023, Q1 2024, Q2 2024, Q4 2025, Q2 2026
+- title: Solutions Consultant of the Quarter
+  detail: Pegasystems · LATAM · Q1 2021
+- title: Americas Pre-Sales of the Year finalist
+  detail: Qlik · 2019
+headline: 'Smart data capture · Enterprise analytics
 
-experiences:
-  title: Experience
-  info:
-    - role: Senior Solutions Consultant
-      time: '2023 — Present'
-      company: Scandit
-      location: Dallas, TX, USA
-    - role: Solutions Consultant
-      time: '2022 — 2023'
-      company: Scandit
-      location: Brazil
-    - role: Solutions Consultant
-      time: '2020 — 2022'
-      company: Pegasystems
-      location: Brazil
-    - role: Pre-Sales Enterprise Architect
-      time: '2018 — 2020'
-      company: Qlik
-      location: Brazil
-    - role: Senior Data Warehouse Analyst & Business Specialist
-      time: '2013 — 2018'
-      company: JBS S.A.
-      location: Brazil and USA
-    - role: Pre-Sales & QlikView Architect
-      time: '2010 — 2013'
-      company: W&S Central IT / Scriptus
-      location: Brazil
-
-footer: >
-  Theme by <a href="https://themes.3rdwavemedia.com" target="_blank"
-  rel="nofollow noopener noreferrer">Xiaoying Riley</a>
+  Decisioning & automation'
+positioning:
+- title: Multimillion-dollar opportunities
+  text: Scandit · technical support for enterprise sales engagements
+- title: 120% of sales quota
+  text: Qlik · 2018
+- title: 200 → 2,000+ users
+  text: QlikView at JBS USA & Canada · 46 industrial units · 2016–2018
+- title: 170% customer-base growth
+  text: W&S Central IT · 2011–2013
+cases:
+- label: SCANDIT · ENTERPRISE CONSULTING
+  name: Functional technical leadership
+  title: Enterprise technical delivery
+  text: Guide enterprise technical engagements across Sales, Support, Product, and customer engineering. Align
+    requirements and integration plans, coordinate delivery, and equip colleagues with reusable technical guidance.
+  points:
+  - Hands-on SDK prototypes, pilot dashboards, and integration execution plans.
+  - Technical onboarding, peer mentoring, and partner enablement.
+- label: PEGASYSTEMS · DECISIONING & AUTOMATION
+  name: Telecom decisioning & automation
+  title: Customer Decision Hub and order-flow PoCs
+  text: Main technical resource for Brazilian telecom accounts at Pegasystems. Led discovery, executive workshops,
+    and PoCs for real-time customer engagement and intelligent automation.
+  points:
+  - Next Best Action and Customer Decision Hub proofs of concept.
+  - RPA/RDA for order-flow correction and provisioning visibility.
+- label: QLIK · ENTERPRISE ANALYTICS
+  name: Enterprise analytics
+  title: 120% of sales quota in 2018
+  text: Designed QlikView and Qlik Sense solution architectures and supported enterprise evaluations across
+    six industry sectors. Finalist for Americas Pre-Sales of the Year in 2019.
+  points:
+  - Cloud and mobile analytics; public-health web dashboards.
+  - QlikWorld presentation and technical enablement across the Americas.
+- label: JBS · OPERATIONAL BUSINESS INTELLIGENCE
+  name: BI rollout & user adoption
+  title: 200 to 2,000+ users across 46 industrial units
+  text: Launched QlikView for JBS USA and Canada and coordinated training and application development across
+    Sales, HR, Pricing, IT, and Operations, 2016–2018.
+  points:
+  - QlikView rollout, user training, and cross-department BI development.
+  - 'Beef Division BI adoption in Brazil: 500 to 2,500 users.'
+personal_ai:
+  title: AI-assisted development · personal projects
+  intro: Use coding agents for personal web development and automation, including source changes, domain configuration,
+    deployment, and responsive checks. Guide tasks with Markdown context and reusable instructions, then review
+    and refine the working outputs.
+  tools:
+  - Claude Code
+  - Codex
+  - Cursor
+  - Hermes
+page_title: Luciano Assad | Senior Solutions Consultant
+description: Luciano Assad — Senior Solutions Consultant in Dallas. Enterprise pre-sales, solution architecture,
+  mobile SDK integration, analytics, and intelligent automation across the US and Latin America.
