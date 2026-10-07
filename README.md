@@ -1,3 +1,36 @@
+# Luciano Assad — lucassad.com
+
+This site keeps the Orbit theme and Jekyll framework. Professional content in
+`_data/data.yml` is temporarily Lorem ipsum, pending the approved public resume.
+The profile identity, photo, and contact links remain in place.
+
+## Publish and recover the domain
+
+1. Merge these changes into `master`.
+2. In repository **Settings → Pages**, select **GitHub Actions** as the source.
+3. Set **Custom domain** to `lucassad.com` and save. The checked-in `CNAME`
+   must match this setting.
+4. Confirm your DNS points to GitHub Pages. For the apex domain, use GitHub's
+   A records: `185.199.108.153`, `185.199.109.153`, `185.199.110.153`,
+   `185.199.111.153`. For `www`, use a CNAME to `lucassad.github.io`.
+   See https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site
+5. Wait for the **Build and deploy Jekyll to GitHub Pages** workflow to succeed,
+   then enable **Enforce HTTPS** when GitHub makes it available.
+6. Verify `https://lucassad.com/` and `https://lucassad.com/print` return the CV.
+
+Pull requests build the site without deploying it. Pushes to `master` deploy it.
+A GitHub Pages “Site not found” response requires checking Pages publication and
+its custom-domain mapping; changing resume text alone cannot resolve it.
+
+## Update the public resume
+
+Replace the placeholder biography, roles, education, certifications, languages,
+interests, and skills in `_data/data.yml` with the approved publication copy.
+Skill percentages and dates are placeholders too. Keep the theme attribution.
+The PDF button generates a PDF from the site; no old resume PDF is linked.
+
+---
+
 <a href="https://jekyll-themes.com">
 <img src="https://img.shields.io/badge/featured%20on-JT-red.svg" height="20" alt="Jekyll Themes Shield" >
 </a>
