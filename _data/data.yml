@@ -30,7 +30,7 @@ experience:
     primary technical lead for Brazil and a ShelfView product specialist across the Americas.
   - Delivered product demonstrations and customer technical discussions at Scandit's exhibitor booth at NRF
     Big Show in 2024, 2025, and 2026.
-- role: Solutions Consultant
+- role: Senior Solutions Consultant
   company: Pegasystems
   location: Brazil
   period: 2020 — 2022
@@ -239,10 +239,10 @@ cases:
   - QlikView rollout, user training, and cross-department BI development.
   - 'Beef Division BI adoption in Brazil: 500 to 2,500 users.'
 personal_ai:
-  title: AI-assisted development · personal projects
-  intro: Use coding agents for personal web development and automation, including source changes, domain configuration,
-    deployment, and responsive checks. Guide tasks with Markdown context and reusable instructions, then review
-    and refine the working outputs.
+  title: AI agents & context engineering
+  intro: Develop personal software and automation projects with AI coding agents, translating requirements into
+    scoped implementation tasks and structured project context. Use Markdown documentation and reusable instructions
+    to guide agent execution, review generated changes, and validate deliverables through debugging and functional checks.
   tools:
   - Claude Code
   - Codex
