@@ -3,7 +3,7 @@
 This site keeps the Orbit theme and Jekyll framework. The public profile currently shows identity, contact links, and career history
 (companies, roles, dates, and locations) from the supplied resume. Experience
 descriptions and other resume sections are intentionally omitted until approved.
-The profile photo has been removed, and the layout uses a modern career timeline.
+The profile uses the user-supplied LinkedIn photo and a modern career timeline.
 
 ## Publish and recover the domain
 

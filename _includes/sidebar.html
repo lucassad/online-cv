@@ -4,10 +4,12 @@
   <div class="profile-container">
     <p class="profile-label">Professional profile</p>
 
+    <div class="profile-identity">
     {% if sidebar.avatar %}
-    <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
+    <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="{{ sidebar.name | escape }}" width="96" height="96" />
     {% endif %}
 
+    <div class="profile-copy">
     {% if sidebar.name %}
     <h1 class="name">{{ sidebar.name }}</h1>
     {% endif %}
@@ -19,6 +21,8 @@
     {% if sidebar.location %}
     <p class="profile-location">{{ sidebar.location }}</p>
     {% endif %}
+    </div>
+    </div>
 
   </div><!--//profile-container-->
 
