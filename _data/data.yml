@@ -1,225 +1,89 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
-
+# Temporary copy for the public resume. Replace these placeholders with the
+# approved publication resume; do not copy an application-specific resume here.
 sidebar:
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
-
-    # Profile information
-    name: Luciano Assad
-    tagline: Senior Solutions Consultant
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-    resume-name: Resume%20-%20Luciano%20Assad.pdf
-
-    # Sidebar links
-    email: luc.assad@gmail.com
-    phone:
-    website: lucassad.com #do not add http://
-    linkedin: lucianoassad
-    github: lucassad
-    telegram:
-    gitlab:
-    bitbucket:
-    twitter:
-    stack-overflow:
-    codewars:
-    goodreads:
-
-    languages:
-      - idiom: Portuguese
-        level: Native
-
-      - idiom: English
-        level: Fluent
-
-      - idiom: Spanish
-        level: Professional
-
-    interests:
-      - item: Data Analytics
-        link:
-
-      - item: AI & ML
-        link:
-
-      - item: Hyperautomation
-        link:
-
-      - item: Cloud
-        link:
+  about: false
+  education: true
+  name: Luciano Assad
+  tagline: Lorem ipsum dolor sit amet
+  avatar: profile.png
+  email: luc.assad@gmail.com
+  website: lucassad.com
+  linkedin: lucianoassad
+  github: lucassad
+  languages:
+    - idiom: Lorem ipsum
+      level: Dolor sit amet
+    - idiom: Lorem ipsum
+      level: Consectetur adipiscing
+  interests:
+    - item: Lorem ipsum
+    - item: Dolor sit amet
+    - item: Consectetur adipiscing
 
 career-profile:
-    title: Summary
-    summary: |
-      Senior Solutions Consultant with extensive experience in enterprise pre-sales, technical solution design,
-      and customer engagement across Fortune 500 organizations. Proven ability to act as a trusted advisor,
-      leading complex sales cycles, delivering high-impact demonstrations, and translating technical capabilities
-      into business value. Strong track record partnering with Sales, Product, and Engineering teams to drive
-      adoption, support revenue growth, and deliver successful customer outcomes across North and South America.
+  title: Summary
+  summary: |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+    commodo consequat.
 
 education:
-    - degree: Bachelor of Information Systems
-      university: FIAP - Faculdade de Informática e Administração Paulista
-      time: 2010 - 2014
-      details: |
-        São Paulo - SP - Brazil
+  - degree: Lorem ipsum dolor sit amet
+    university: Consectetur adipiscing elit
+    time: '20XX - 20XX'
+    details: |
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 experiences:
-    - role: Senior Solutions Consultant
-      time: 2022 - Present
-      company: Scandit, Dallas TX
-      details: |
-        Scandit's smart data capture platform transforms the way enterprises interact with the physical world,
-        enabling businesses to capture data from barcodes, text, IDs, and objects using smart devices.
-          - Act as a trusted technical advisor supporting enterprise sales cycles across North and South America, including LATAM markets
-          - Partner closely with Account Executives to drive complex opportunities from discovery through technical validation and closing
-          - Design and deliver tailored product demonstrations and solution presentations aligned with customer workflows and business goals
-          - Lead technical discovery sessions to understand customer processes, challenges, and success criteria
-          - Translate customer requirements into scalable solution designs and clear value propositions
-          - Collaborate cross-functionally with Sales, Product, and Engineering teams on deal strategy, roadmap alignment, and technical validation
-          - Support multi-million dollar opportunities by aligning technical solutions with measurable business impact
-          - Deliver executive-level presentations to both technical and non-technical stakeholders
-          - Drive customer evaluations by configuring solutions based on real customer data and guiding prospects through decision-making
-          - Mentor peers and contribute to internal enablement initiatives and best practices
+  - role: Lorem ipsum dolor sit amet
+    time: '20XX - Present'
+    company: Consectetur adipiscing elit
+    details: |
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua.
 
-    - role: Solutions Consultant
-      time: 2020 - 2022
-      company: Pegasystems, Brazil
-      details: |
-        Pegasystems is the leader of Real-Time Interaction Management in Forrester Wave, supporting customers
-        for customer engagement, customer service, and intelligent automation.
-          - Led pre-sales engagements for enterprise customers in telecommunications and large-scale industries
-          - Delivered proof of concepts focused on real-time customer engagement and automation
-          - Conducted technical workshops and executive presentations to support deal progression
-          - Managed POCs for Pega Customer Decision Hub (Next Best Action), RPA/RDA automation flows, and hyperautomation frameworks
-          - Recognized as Solutions Consultant of the Quarter — Q1 2021, LATAM
+      - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+      - Duis aute irure dolor in reprehenderit in voluptate velit esse.
+      - Excepteur sint occaecat cupidatat non proident.
+  - role: Lorem ipsum dolor sit amet
+    time: '20XX - 20XX'
+    company: Sed do eiusmod tempor
+    details: |
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
-    - role: Pre-Sales Enterprise Architect
-      time: 2018 - 2020
-      company: Qlik, Brazil
-      details: |
-        Qlik is one of the leaders in Gartner's Magic Quadrant for Analytics, helping enterprises get value
-        out of data with an end-to-end solution.
-          - Designed and delivered data analytics demonstrations and enterprise solutions for customer evaluations
-          - Partnered with Sales to drive pipeline growth across Retail, Manufacturing, Telecom, Pharma, and Financial sectors
-          - Achieved 120% of sales quota in 2018
-          - Recognized as finalist for Americas Pre-Sales of the Year in 2019
-          - Presenter at QlikWorld 2020 — Hybrid Cloud Data Architectures & Data Movement
-          - Hosted Americas Fireside Chats in 2020
+      - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+      - Duis aute irure dolor in reprehenderit in voluptate velit esse.
+  - role: Lorem ipsum dolor sit amet
+    time: '20XX - 20XX'
+    company: Ut labore et dolore
+    details: |
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
-    - role: Senior Data Warehouse Analyst
-      time: 2016 - 2018
-      company: JBS S.A., USA
-      details: |
-        JBS S.A. is the largest protein processor and second largest food company in the world,
-        with presence in 22 countries serving 350,000+ customers.
-          - Launched and managed QlikView rollout across JBS USA and JBS Canada
-          - Scaled from 200 users (Beef Division, Jan 2016) to 2,000+ users across 46 industrial units by Jan 2018
-          - Managed QlikView training across more than 2,000 users
-          - Coordinated Business Intelligence application development across Sales, HR, Pricing, IT, and Operations
-
-    - role: Business Specialist
-      time: 2013 - 2015
-      company: JBS S.A., Brazil
-      details: |
-          - Coordinated and developed Business Intelligence applications for the largest business unit in Brazil
-          - Scaled Beef Division BI from 500 users (Aug 2013) to 2,500 users (Dec 2015)
-          - Established development best practices and layout standards for internal developers and contractors
-          - Mapped manufacturing processes and delivered KPIs tracked at operational level
-          - Delivered mobile solutions for the executive team using Qlik Sense
-          - Supported QlikView implementation across Seara, JBS Leather, JBS Australia, and Swift Retail
-
-    - role: Pre-Sales & QlikView Architect
-      time: 2011 - 2013
-      company: W&S Central IT, Brazil
-      details: |
-        W&S Central IT — Business Intelligence solution provider and consulting company.
-          - Presented and developed insight solutions with the sales force for new customers
-          - Grew customer base by 170% from January 2011 to August 2013
-          - Delivered solutions across television, retail, construction, broadcast, and other industries
-
-    - role: Business Analyst
-      time: 2010 - 2011
-      company: Scriptus, Brazil
-      details: |
-        Scriptus — Training company for business management, mergers, and acquisitions.
-          - Mapped business processes and created databases
-          - Created presentations for the executive team
+      - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+      - Excepteur sint occaecat cupidatat non proident.
 
 publications:
-    title: Certifications
-    intro:
-    papers:
-      - title: Pega Certified System Administrator
-        link:
-        authors:
-        conference:
-
-      - title: Qlik Sense System Administrator
-        link:
-        authors:
-        conference:
-
-      - title: Qlik Sense Data Architect
-        link:
-        authors:
-        conference:
-
-      - title: Qlik Sense Business Analyst
-        link:
-        authors:
-        conference:
-
-      - title: QlikView Designer & Developer
-        link:
-        authors:
-        conference:
-
-      - title: Demo2Win
-        link: https://2winglobal.com/
-        authors: 2Win
-        conference:
+  title: Certifications
+  papers:
+    - title: Lorem ipsum dolor sit amet
+    - title: Consectetur adipiscing elit
+    - title: Sed do eiusmod tempor
 
 skills:
-    title: Skills &amp; Proficiency
-
-    toolset:
-      - name: Solution Engineering & Pre-Sales
-        level: 98%
-
-      - name: Technical Discovery & Demos
-        level: 98%
-
-      - name: Executive Presentations
-        level: 95%
-
-      - name: Scandit SDK & Smart Data Capture
-        level: 90%
-
-      - name: Pega Platform & Customer Decision Hub
-        level: 85%
-
-      - name: Qlik Sense / QlikView
-        level: 95%
-
-      - name: Cloud Integration (AWS)
-        level: 80%
-
-      - name: Python
-        level: 70%
-
-      - name: Node.js
-        level: 65%
-
-      - name: React Native / Mobile (iOS & Android)
-        level: 65%
-
-      - name: SQL
-        level: 85%
-
-      - name: Docker / Kubernetes
-        level: 65%
+  title: Skills &amp; Proficiency
+  toolset:
+    - name: Lorem ipsum
+      level: 90%
+    - name: Dolor sit amet
+      level: 85%
+    - name: Consectetur adipiscing
+      level: 80%
+    - name: Sed do eiusmod
+      level: 75%
+    - name: Ut labore et dolore
+      level: 70%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+  Designed with <i class="fas fa-heart"></i> by
+  <a href="https://themes.3rdwavemedia.com" target="_blank" rel="nofollow noopener noreferrer">Xiaoying Riley</a>
