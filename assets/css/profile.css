@@ -13,3 +13,4 @@
 @media print{.recognition{display:none}}
 
 .topbar a.outline-button{display:inline-block;text-decoration:none}.sidebar{padding-bottom:34px}.sidebar nav{margin-top:48px}.case-name{font-size:1.5rem}.case-card{padding:24px}.case-card p,.case-card li{font-size:1rem}@media print{.career-body li{font-size:9pt;line-height:1.45}.recognition{display:block;padding:12px}.recognition-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.recognition h4{font-size:8.5pt}.recognition p{font-size:8pt}.personal-ai-compact p{font-size:8.5pt}.career>summary{padding:9px 0 6px}.career-body{padding-bottom:10px}.career-body li{margin-bottom:4px}}
+@media print{.section-heading{break-inside:avoid;break-after:avoid;page-break-after:avoid}#skills{break-before:page;page-break-before:always}}
